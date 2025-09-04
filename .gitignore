@@ -23,3 +23,7 @@ Assets/AssetStoreTools*
 *.VC.db
 .DS_Store
 Thumbs.db
+
+# Extra para limpiar Visual Studio y Unity Logs
+.vs/
+[Ll]ogs/
