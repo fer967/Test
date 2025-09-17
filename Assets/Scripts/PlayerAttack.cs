@@ -1,4 +1,4 @@
-using UnityEngine;
+ï»¿using UnityEngine;
 
 public class PlayerAttack : MonoBehaviour
 {
@@ -29,7 +29,7 @@ public class PlayerAttack : MonoBehaviour
 
         foreach (Collider2D enemy in hitEnemies)
         {
-            Debug.Log("Golpeó a " + enemy.name);
+            Debug.Log("Golpeï¿½ a " + enemy.name);
             Destroy(enemy.gameObject); // lo elimina
             GameManager.Instance.AddKill(); // suma 1 al contador
         }
@@ -42,4 +42,5 @@ public class PlayerAttack : MonoBehaviour
         Gizmos.DrawWireSphere(attackPoint.position, attackRange);
     }
 }
+
 
